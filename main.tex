@@ -1,0 +1,82 @@
+\documentclass[letterpaper,conference,10pt,twocolumn]{IEEEtran}
+
+%\usepackage{graphicx, amsmath} 
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{amsmath}
+%\usepackage{tabularx}
+%\usepackage{tabulary}
+%\usepackage{longtable}
+%\usepackage{tabu}
+%\usepackage{pifont}
+%\usepackage{multirow}
+%\usepackage{stmaryrd}
+\usepackage[switch,pagewise]{lineno}
+%\linenumbers
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsfonts}
+%%\usepackage[pdftex]{nohyperref}
+\usepackage{nohyperref}
+\usepackage{url}
+\usepackage[
+top = 19mm,
+bottom = 19mm,
+left = 19mm,
+right = 19mm]{geometry}
+
+\usepackage{layouts}
+
+%%\usepackage{apacite}
+\hypersetup{%
+  pdfauthor={Ankur Sinha & Jack Wang},%
+  pdftitle={An implementation of the path integrator mechanism of head direction cells for bio-mimetic navigation},%
+  pdfkeywords={head direction cells, bio-mimetic navigation, navigation, robotics, PR2},%
+}%
+
+\IEEEoverridecommandlockouts    % to create the author's affliation portion
+%
+%\hoffset 0pt
+%\voffset 0pt
+%\topmargin -.027 in
+%\textheight 8.7in
+%\textwidth 6.4in
+%\oddsidemargin 1.5mm
+%\evensidemargin 1.5mm
+%\headsep 0.59 in 
+
+\begin{document}
+
+%\begin{figure}
+%  \twocolumnlayouttrue
+%  \pagediagram
+%\end{figure}
+%
+%\printinunitsof{mm}\pagevalues
+% paper title: Must keep \ \\ \LARGE\bf in it to leave enough margin.
+
+\title{\ \\ \LARGE\bf Paper title goes here\thanks{Ankur Sinha, \dots are at the Biocomputation Group, University of Hertfordshire, Hatfield, United Kingdom (email: \{a.sinha2 \dots \}@herts.ac.uk).}}
+
+\author{Ankur Sinha, \dots}
+
+% avoiding spaces at the end of the author lines is not a problem with
+% conference papers because we don't use \thanks or \IEEEmembership
+% use only for invited papers
+%\specialpapernotice{(Invited Paper)}
+
+% make the title area
+\maketitle
+
+
+\input{01_abstract/01_abstract.tex}
+\input{02_introduction/01_introduction.tex}
+\input{03_main_matter/01_methods.tex}
+\input{03_main_matter/02_results.tex}
+\input{03_main_matter/03_discussion.tex}
+\input{04_conclusion/01_conclusion.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{/home/asinha/Documents/work/biblist.bib}
+\end{document}
+
+
